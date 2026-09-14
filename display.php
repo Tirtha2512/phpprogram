@@ -10,5 +10,12 @@
 	</tr>
 </table>
 <?php
+inclued("connection.php");
+$qry="select * from students";
+$result=mysqli_query($con,$qry);
+if(mysqli_num_rows($result)>0)
+{
+	
+}
 
 ?>
